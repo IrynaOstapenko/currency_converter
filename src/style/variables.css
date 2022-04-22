@@ -1,0 +1,9 @@
+:root {
+	--background: white;
+	--foreground: black;
+	
+	--font-family: "Heebo";
+	--header-style: 42px;
+	--body-style: 30px;
+	--mobile-body-style: 24px;
+}
