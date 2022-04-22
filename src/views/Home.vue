@@ -12,14 +12,14 @@
 			<div>
 				<p>From</p>
 				<div class="currency-fields__select-box">
-					<img src="images/euro.jpg" alt="eu-flag" class="flag-image">
+					<img src="/images/euro.jpg" alt="eu-flag" class="flag-image">
 					<select name="" id="">
 						<option value="EUR">EUR</option>
 					</select>
 				</div>
 			</div>
 
-			<button><img src="images/arrow.png" alt="arrow-image" class="arrow-image"></button>
+			<button><img src="/images/arrow.png" alt="arrow-image" class="arrow-image"></button>
 			
 			<div>
 				<p>To</p>
@@ -57,7 +57,7 @@ export default {
 	async created() {
 		this.fetchRates();
 	},
-	
+
 	methods: {
 		// Fetching all currency rates as of today using try and catch method to handle possible errors
 		async fetchRates() {
