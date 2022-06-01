@@ -1,2 +1,1 @@
-Run npm install before start coding.
-Run npm run dev to diplay application on browser.
+The website is created in Vue.js. It uses two APIs: one provides data on currency rates and the other one fetches flags of the chosen currency.
